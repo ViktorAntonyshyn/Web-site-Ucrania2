@@ -236,23 +236,6 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
 /* _________________________@MEDIA______________________________- */
-/* 
-@media screen and (max-width: 360px){
-  .ucrania{
-    margin-right: 20px;
-    font-size: 16px;
-}
-  .container-menu{
-    font-size: 10px;
-     }
-  .pic1, .pic2, .pic3{
-      width: 50px;
-      height: 30px;
-    }      
-  .container-wiki a {
-     font-size: 6px;
-    }
-} */
 
 @media screen and (max-width: 786px){
   .bandera{
@@ -268,8 +251,8 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 13px;
   }
   .pic1, .pic2, .pic3{
-    width: 100px;
-    height: 70px;
+    width: 80px;
+    height: 55px;
   }
   .article-ayer, .article-hoy, .article-manana{
     font-size: 15px;
@@ -281,4 +264,56 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
    .container-redes{
     width: 65%;
   }
+}
+
+@media screen and (max-width: 360px){
+  .container-header{
+    height: 7vh;
+  }
+  .bandera{
+    margin-left: 25px;
+   width: 6vh;
+   height: 4vh;  
+}
+ .ucrania{
+   margin-right: 20px;
+   font-size: 22px;
+ }
+ .container-menu{
+   font-size: 13px;
+ }
+ .ayer, .hoy, .manana {
+  margin-left: 7px;
+} 
+
+ .pic1, .pic2, .pic3{
+   width: 100px;
+   height: 70px;
+ }
+ .article-ayer, .article-hoy, .article-manana{
+   font-size: 13px;
+   color: #312f2f;
+   justify-content: center;
+
+ }
+ .container-footer{
+  display: flex;
+  flex-direction: column;
+ }
+ .container-wiki{
+  width: 95%;
+  margin-left: 0%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+ }
+ .container-wiki a {
+   margin-bottom: 2%;
+   font-size: 12px;
+  }
+  .container-redes{
+   width: 95%;
+   font-size: small;
+ }
 }
