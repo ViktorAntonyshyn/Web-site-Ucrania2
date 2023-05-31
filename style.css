@@ -87,8 +87,8 @@ text-shadow: 0px 6px 3px rgba(0, 0, 0, 0.25);
 
 .pic1, .pic2, .pic3{
     width: 200px;
-    border-radius: 50%;
-    border: #404040 5px solid;
+
+    border: #404040 1px solid;
 }
 
 /* ________________________FOOTER_____________________ */
@@ -130,111 +130,6 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
-    /* _________________ANIMACIONES__________________ */
-
-
-.pic1:active{
-    animation-name: slide-fwd-tr;
-    -webkit-animation: 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-fwd-tr 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; 
-    animation-play-state: running; /* RUNNING */                   
-}
-
-
-
-/*  .slide-fwd-tr {
-	-webkit-animation: slide-fwd-tr 0.45s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
-	        animation: slide-fwd-tr 0.45s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
-
-
-}*/
-
-@-webkit-keyframes slide-fwd-tr {
-    0% {
-      -webkit-transform: translateZ(0) translateY(0) translateX(0);
-              transform: translateZ(0) translateY(0) translateX(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px) translateY(-100px) translateX(100px);
-              transform: translateZ(160px) translateY(-100px) translateX(100px);
-    }
-  }
-  @keyframes slide-fwd-tr {
-    0% {
-      -webkit-transform: translateZ(0) translateY(0) translateX(0);
-              transform: translateZ(0) translateY(0) translateX(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px) translateY(-100px) translateX(100px);
-              transform: translateZ(160px) translateY(-200px) translateX(200px);
-              width: 70%;
-              border-radius: 0%;
-              border: #e7113f
-            }
-  }
-
-
-  .pic2:active {
-    animation-name: slide-fwd-top;
-    -webkit-animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;  
-    animation-play-state: running; /* RUNNING */    
-}
-
-@-webkit-keyframes slide-fwd-top {
-    0% {
-      -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px) translateY(-100px);
-              transform: translateZ(160px) translateY(-100px);
-    }
-  }
-  @keyframes slide-fwd-top {
-    0% {
-      -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px) translateY(-100px);
-              transform: translateZ(160px) translateY(-200px);
-              width: 70%;
-              border-radius: 0%;
-              border: #e7113f
-    }
-  }
-  
-  .pic3:active{
-    animation-name: slide-fwd-top;
-    -webkit-animation: slide-fwd-tl 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-fwd-tl 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;  
-    animation-play-state: running; /* RUNNING */    
-}
-  
-@-webkit-keyframes slide-fwd-tl {
-  0% {
-    -webkit-transform: translateZ(0) translateY(0) translateX(0);
-            transform: translateZ(0) translateY(0) translateX(0);
-  }
-  100% {
-    -webkit-transform: translateZ(160px) translateY(-100px) translateX(-100px);
-            transform: translateZ(160px) translateY(-100px) translateX(-100px);
-  }
-}
-@keyframes slide-fwd-tl {
-  0% {
-    -webkit-transform: translateZ(0) translateY(0) translateX(0);
-            transform: translateZ(0) translateY(0) translateX(0);
-  }
-  100% {
-    -webkit-transform: translateZ(160px) translateY(-100px) translateX(-100px);
-            transform: translateZ(160px) translateY(-200px) translateX(-40%);
-            width: 70%;
-            border: #e7113f;
-            border-radius: 0%;
-  }
-}
 /* _________________________@MEDIA______________________________- */
 
 @media screen and (max-width: 786px){
@@ -291,7 +186,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
    height: 70px;
  }
  .article-ayer, .article-hoy, .article-manana{
-   font-size: 13px;
+   font-size: 12px;
    color: #312f2f;
    justify-content: center;
 
